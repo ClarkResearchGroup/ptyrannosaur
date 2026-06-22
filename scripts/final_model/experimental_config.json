@@ -1,0 +1,16 @@
+{
+    "settings" : { 
+        "data_path" : "/path/to/data",
+        "save_path" : "/path/to/save"
+    },
+
+    "evaluation_parameters" : {
+        "num_scans_1d" : 128,
+
+        "save_patches" : true,
+        "learn_stitching" : true,
+
+        "virtual_image_min_radius" : 0,
+        "virtual_image_max_radius" : 16
+    }
+}
