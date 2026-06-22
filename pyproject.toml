@@ -3,7 +3,7 @@ requires = ["setuptools>=64"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ptyrannosaur-v0"
+name = "ptyrannosaur"
 version = "0.0.0"
 description = "Ptychography using Robust Artificial Neural Networks Optimized for Sub-Ångstrom Accuracy and Ultrafast Reconstruction"
 authors = [
