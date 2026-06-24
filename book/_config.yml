@@ -1,0 +1,30 @@
+# Jupyter Book (classic v1) configuration
+# Docs: https://jupyterbook.org/customize/config.html
+title: PtyRANNOSAUR
+author: Clark and Huang Research Groups
+logo: logo.png
+
+# Do not re-execute the notebook on build; render its stored outputs.
+execute:
+  execute_notebooks: "off"
+
+# Only build files listed in _toc.yml.
+only_build_toc_files: true
+
+# Allow the notebook's raw HTML (<font color>, <img align>, Colab badge) through.
+parse:
+  myst_enable_extensions:
+    - html_image
+
+# Remove the header button cluster.
+html:
+  use_issues_button: false
+  use_repository_button: false
+  use_edit_page_button: false
+
+sphinx:
+  config:
+    html_theme_options:
+      use_download_button: false
+      use_fullscreen_button: false
+      use_source_button: false
