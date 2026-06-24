@@ -11,9 +11,16 @@ execute:
 # Only build files listed in _toc.yml.
 only_build_toc_files: true
 
-# Allow the notebook's raw HTML (<font color>, <img align>, Colab badge) through.
+# Jupyter Book's default MyST extensions (incl. dollarmath for $...$ math),
+# plus html_image for the notebook's raw <img> tags. Listing this key replaces
+# the defaults, so the defaults must be repeated here.
 parse:
   myst_enable_extensions:
+    - colon_fence
+    - dollarmath
+    - linkify
+    - substitution
+    - tasklist
     - html_image
 
 # Remove the header button cluster.
