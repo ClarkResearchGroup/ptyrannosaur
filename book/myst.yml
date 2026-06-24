@@ -1,9 +1,0 @@
-version: 1
-project:
-  title: PtyRANNOSAUR
-  description: Autoencoder-based reconstruction of material potentials from 4D-STEM data.
-  github: https://github.com/ClarkResearchGroup/ptyrannosaur
-  toc:
-    - file: ptyrannosaur.ipynb
-site:
-  template: book-theme
