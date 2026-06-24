@@ -2,6 +2,7 @@
 # Docs: https://jupyterbook.org/customize/config.html
 title: PtyRANNOSAUR
 author: Clark and Huang Research Groups
+copyright: "2026"
 logo: logo.png
 
 # Do not re-execute the notebook on build; render its stored outputs.
